@@ -31,13 +31,10 @@ Ao deduzir esses fatores, a **hora real** costuma ser 25% a 50% menor do que o n
 
 ## Fórmulas
 
-$$ \text{Horas Totais Dedicadas} = \text{Horas Contratadas} + (\text{Horas de Trânsito} + \text{Horas Invisíveis}) \times \text{Dias Presenciais} \times 4.33 $$
-
-$$ \text{Sobra Líquida} = \text{Salário Líquido} - \text{Custos de Trabalho (transporte, refeição, outros)} $$
-
-$$ \text{Hora Real} = \frac{\text{Sobra Líquida}}{\text{Horas Totais Dedicadas}} $$
-
-$$ \text{Corrosão} = \frac{\text{Hora Nominal} - \text{Hora Real}}{\text{Hora Nominal}} \times 100\% $$
+- **Horas Totais Dedicadas:** `Horas Contratadas + (Horas de Trânsito + Horas Invisíveis) × Dias Presenciais × 4,33`
+- **Sobra Líquida:** `Salário Líquido − Custos de Trabalho (transporte, refeição, outros)`
+- **Hora Real:** `Sobra Líquida ÷ Horas Totais Dedicadas`
+- **Corrosão:** `((Hora Nominal − Hora Real) ÷ Hora Nominal) × 100%`
 
 ---
 
