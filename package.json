@@ -1,0 +1,35 @@
+{
+  "name": "hora-real-calculadora",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Calculadora aberta que revela o valor real da sua hora de trabalho deduzindo custos e deslocamento.",
+  "author": {
+    "name": "Arthur Ramos Kasprzak",
+    "url": "https://github.com/Kasprzak-k"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kasprzak-k/quanto-vale-meu-tempo.git"
+  },
+  "homepage": "https://kasprzak-k.github.io/quanto-vale-meu-tempo/",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "test": "node --test tests/calculator.test.ts"
+  },
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "puppeteer-core": "^23.11.1",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.11"
+  }
+}

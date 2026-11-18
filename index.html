@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hora Real: quanto vale o seu tempo de verdade</title>
+    <meta
+      name="description"
+      content="Calculadora que desconta deslocamento, horas invisíveis e gastos do trabalho para revelar o valor real da sua hora."
+    />
+    <meta name="author" content="Arthur Ramos Kasprzak" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- Photographs: Wilfredor (CC BY-SA 4.0, Wikimedia Commons) https://commons.wikimedia.org/wiki/File:Ana_rosa_metro_station,_S%C3%A3o_Paulo,_Brazil.jpg -->
+    <script type="module" src="/src/main.tsx"></script>
+    <script>window.hallmarkSlots = (m) => { for (const [k, v] of Object.entries(m)) { const s = document.querySelector(`[data-slot="${k}"]`); if (!s) continue; const im = new Image(); im.src = typeof v === 'string' ? v : v.src; im.alt = (typeof v === 'object' && v.alt) || s.dataset.alt || ''; s.querySelectorAll(':scope > img').forEach((o) => o.remove()); s.prepend(im); } };
+document.querySelectorAll('[data-slot] img').forEach((i) => { if (i.complete && !i.naturalWidth) i.remove(); else i.addEventListener('error', () => i.remove(), { once: true }); });</script>
+  </body>
+</html>
